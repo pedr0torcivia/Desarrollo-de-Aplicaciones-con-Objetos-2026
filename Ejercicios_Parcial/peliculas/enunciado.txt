@@ -1,0 +1,18 @@
+EJERCICIO 1 - PELÍCULAS DE UNA PLATAFORMA
+
+Una plataforma de streaming registra las películas disponibles en su catálogo. De cada película se conoce un código, título, duración en minutos y precio base de alquiler.
+
+Existen dos tipos de películas:
+- Película estándar: el importe final del alquiler es igual al precio base.
+- Película estreno: al precio base se le agrega un 25%.
+
+El programa deberá leer los datos desde peliculas.csv, crear los objetos correspondientes y almacenarlos en una lista.
+
+Se deberá desarrollar lo necesario para:
+1. Calcular el importe final de alquiler de cada película según su tipo.
+2. Informar el total que se obtendría al alquilar una vez todas las películas.
+3. Informar cuántas películas duran más de 120 minutos.
+4. Informar los diferentes géneros existentes, sin repetirlos.
+
+Formato: tipo,codigo,titulo,genero,duracion,precio_base.
+Tipo 1 = estándar; tipo 2 = estreno.
