@@ -1,0 +1,6 @@
+EJERCICIO 2 - ENTRADAS A UN ESPECTÁCULO
+Una productora registra entradas. De cada una se conoce número, comprador, sector y precio base.
+Entrada general: mantiene el precio base. Entrada VIP: recargo del 25%.
+Leer entradas.csv y crear los objetos correspondientes. El tipo del archivo solo determina qué objeto crear.
+1. Calcular el precio final mediante polimorfismo. 2. Total recaudado. 3. Precio promedio. 4. Cantidad del sector "Campo".
+Formato: tipo, numero, comprador, sector, precio_base. Tipo 1=general; 2=VIP.

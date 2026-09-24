@@ -1,0 +1,41 @@
+tipo,numero,comprador,sector,precio_base
+1,2001,Persona 01,Campo,5000
+2,2002,Persona 02,Platea,5750
+1,2003,Persona 03,Popular,6500
+2,2004,Persona 04,Campo,7250
+1,2005,Persona 05,Platea Alta,8000
+2,2006,Persona 06,Campo,8750
+1,2007,Persona 07,Platea,9500
+2,2008,Persona 08,Popular,10250
+1,2009,Persona 09,Campo,5000
+2,2010,Persona 10,Platea Alta,5750
+1,2011,Persona 11,Campo,6500
+2,2012,Persona 12,Platea,7250
+1,2013,Persona 13,Popular,8000
+2,2014,Persona 14,Campo,8750
+1,2015,Persona 15,Platea Alta,9500
+2,2016,Persona 16,Campo,10250
+1,2017,Persona 17,Platea,5000
+2,2018,Persona 18,Popular,5750
+1,2019,Persona 19,Campo,6500
+2,2020,Persona 20,Platea Alta,7250
+1,2021,Persona 21,Campo,8000
+2,2022,Persona 22,Platea,8750
+1,2023,Persona 23,Popular,9500
+2,2024,Persona 24,Campo,10250
+1,2025,Persona 25,Platea Alta,5000
+2,2026,Persona 26,Campo,5750
+1,2027,Persona 27,Platea,6500
+2,2028,Persona 28,Popular,7250
+1,2029,Persona 29,Campo,8000
+2,2030,Persona 30,Platea Alta,8750
+1,2031,Persona 31,Campo,9500
+2,2032,Persona 32,Platea,10250
+1,2033,Persona 33,Popular,5000
+2,2034,Persona 34,Campo,5750
+1,2035,Persona 35,Platea Alta,6500
+2,2036,Persona 36,Campo,7250
+1,2037,Persona 37,Platea,8000
+2,2038,Persona 38,Popular,8750
+1,2039,Persona 39,Campo,9500
+2,2040,Persona 40,Platea Alta,10250
