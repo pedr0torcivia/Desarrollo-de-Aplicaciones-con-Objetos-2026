@@ -1,0 +1,19 @@
+EJERCICIO 2 - CÓMICS DE UNA TIENDA
+
+Una tienda especializada registra los cómics disponibles para la venta. De cada cómic se conoce un código, título, editorial, cantidad de páginas y precio base.
+
+Existen dos tipos de cómics:
+- Cómic regular: el precio final es igual al precio base.
+- Cómic de colección: al precio base se le agrega un 40%. Si además posee más de 200 páginas, se agrega un recargo adicional fijo de $1500.
+
+El programa deberá leer los datos desde comics.csv, crear los objetos correspondientes y almacenarlos en una lista.
+
+Se deberá desarrollar lo necesario para:
+1. Calcular el precio final de cada cómic según su tipo.
+2. Informar el total a recaudar si se vende una unidad de cada cómic.
+3. Informar cuántos cómics de colección tienen más de 200 páginas.
+4. Informar el título del cómic con mayor precio final. Si hay más de uno con el mismo precio máximo, informar el primero encontrado.
+5. Informar las diferentes editoriales existentes, sin repetirlas y conservando el orden de aparición.
+
+Formato: tipo,codigo,titulo,editorial,paginas,precio_base.
+Tipo 1 = regular; tipo 2 = colección.
