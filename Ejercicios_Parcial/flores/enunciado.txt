@@ -1,0 +1,19 @@
+EJERCICIO 3 - PEDIDOS DE FLORES DE UNA FLORERÍA
+
+Una florería registra los pedidos preparados durante una jornada. De cada pedido se conoce un código, nombre de la flor principal, color, cantidad de unidades y precio base por unidad.
+
+Existen dos tipos de pedidos:
+- Ramo simple: el importe se calcula multiplicando la cantidad por el precio base por unidad.
+- Arreglo premium: se calcula de la misma manera, se agrega un 35% por armado especial y, si el pedido contiene 12 flores o más, se aplica luego un descuento del 10% sobre el importe ya recargado.
+
+El programa deberá leer los datos desde flores.csv, crear los objetos correspondientes y almacenarlos en una lista.
+
+Se deberá desarrollar lo necesario para:
+1. Calcular el importe final de cada pedido según su tipo.
+2. Informar el total facturado por todos los pedidos.
+3. Informar el importe promedio de los pedidos cuyo importe final esté comprendido entre dos valores recibidos por parámetro, ambos inclusive. Si no existe ningún pedido en ese rango, retornar 0.
+4. Informar el código del primer arreglo premium que tenga al menos 12 flores. Si no existe ninguno, retornar None.
+5. Informar cuál es el color que acumula la mayor cantidad total de flores considerando todos los pedidos. Si hay empate, informar el color que haya aparecido primero en la lista.
+
+Formato: tipo,codigo,flor,color,cantidad,precio_unitario.
+Tipo 1 = ramo simple; tipo 2 = arreglo premium.
