@@ -1,14 +1,9 @@
 from solucion import Comic, ComicColeccion, ComicRegular
+from tienda import Tienda
 
 def main():
     archivo = open("comics.csv")
-
-    comics = []
-    total = 0
-    mas200 = 0
-    tituloMayorPrecio = 0
-    mayor = 0
-    editoriales = []
+    tienda = Tienda("nombre")
 
     primero = True
 
@@ -30,31 +25,14 @@ def main():
         elif tipo == 2:
             comic = ComicColeccion(codigo, titulo, editorial, paginas, precio_base)
 
-        precio_final = comic.precio_final()
-        comics.append(comic)
-        print(comic)
-        print(f"Precio Final: {precio_final}")    
-        print()
-
-        total += precio_final
-
-        if paginas > 200:
-            mas200 += 1
-
-        if mayor < precio_final:
-            tituloMayorPrecio = titulo
-            mayor = precio_final
-
-        if editorial not in editoriales:
-            editoriales.append(editorial)
-
+        tienda.add_comic(comic)
     archivo.close()
 
-    print()
-    print(f"Total: {total}")
-    print(f"Mas 200 Pags: {mas200}")
-    print(f"Titulo Mayor Precio: {tituloMayorPrecio} - {mayor}")
-    print(f"Editoriales: {editoriales}")
+    tienda.mostrar_precios()
+    print(f"Total: {tienda.total()}")
+    print(f"Mas 200 Pags: {tienda.mas_200()}")
+    print(f"Titulo Mayor Precio: {tienda.titulo_mayor()}")
+    print(f"Editoriales: {tienda.editoriales()}")
 
 
 if __name__ == "__main__":
